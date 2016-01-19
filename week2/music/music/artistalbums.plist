@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Benny Goodman</key>
+	<array>
+		<string>Centennial Collection</string>
+		<string>After You&apos;ve Gone</string>
+		<string>Sing Sing Sing</string>
+		<string>Complete Capitol Trios</string>
+		<string>Essential Benny Goodman</string>
+	</array>
+	<key>Madonna</key>
+	<array>
+		<string>Like A Prayer</string>
+		<string>Hard Candy</string>
+		<string>Like A Virgin</string>
+		<string>True Blue</string>
+		<string>Madonna</string>
+	</array>
+	<key>Bruce Springsteen</key>
+	<array>
+		<string>The Rising</string>
+		<string>Born to Run</string>
+		<string>The Promise</string>
+		<string>Born in the USA</string>
+		<string>Darkness on the Edge of Town</string>
+	</array>
+	<key>Johnny Cash</key>
+	<array>
+		<string>Blood Sweat &amp; Tears</string>
+		<string>Ride This Train</string>
+		<string>Unchained</string>
+		<string>American Recordings</string>
+		<string>The Legend of Johnny Cash</string>
+	</array>
+	<key>Keith Jarrett</key>
+	<array>
+		<string>Paris</string>
+		<string>My Foolish Heart</string>
+		<string>The Melody at Night</string>
+		<string>Rio</string>
+		<string>Jasmine</string>
+	</array>
+	<key>Jay-Z</key>
+	<array>
+		<string>Reasonable Doubt</string>
+		<string>American Gangster</string>
+		<string>The Black Album</string>
+		<string>The Blueprint</string>
+		<string>Watch the Throne</string>
+	</array>
+	<key>Red Hot Chili Peppers</key>
+	<array>
+		<string>Stadium Arcadium</string>
+		<string>Red Hot Chili Peppers</string>
+		<string>By The Way</string>
+		<string>I&apos;m With You</string>
+		<string>Californication</string>
+	</array>
+</dict>
+</plist>
