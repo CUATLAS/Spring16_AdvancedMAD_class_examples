@@ -25,8 +25,8 @@
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="mhL-Dp-GDi"/>
                                 </connections>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Choser" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwX-QT-LaE">
-                                <rect key="frame" x="189" y="45" width="223" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Music Chooser" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwX-QT-LaE">
+                                <rect key="frame" x="189" y="45" width="223" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="223" id="VDE-0S-xNM"/>
                                     <constraint firstAttribute="height" constant="21" id="Z92-a3-BK1"/>
