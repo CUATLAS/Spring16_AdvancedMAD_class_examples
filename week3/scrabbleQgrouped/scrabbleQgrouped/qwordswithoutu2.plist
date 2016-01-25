@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>F</key>
+	<array>
+		<string>Faqir</string>
+		<string>Faqirs</string>
+	</array>
+	<key>Q</key>
+	<array>
+		<string>Qi</string>
+		<string>Qis</string>
+		<string>Qat</string>
+		<string>Qats</string>
+		<string>Qadi</string>
+		<string>Qadis</string>
+		<string>Qaid</string>
+		<string>Qaids</string>
+		<string>Qoph</string>
+		<string>Qophs</string>
+		<string>Qanat</string>
+		<string>Qanats</string>
+		<string>Qabala</string>
+		<string>Qindar</string>
+		<string>Qindars</string>
+		<string>Qintar</string>
+		<string>Qintars</string>
+		<string>Qwerty</string>
+		<string>Qwertys</string>
+		<string>Qindarka</string>
+	</array>
+	<key>S</key>
+	<array>
+		<string>Sheqel</string>
+		<string>Sheqelim</string>
+	</array>
+	<key>T</key>
+	<array>
+		<string>Tranq</string>
+		<string>Tranqs</string>
+	</array>
+</dict>
+</plist>
