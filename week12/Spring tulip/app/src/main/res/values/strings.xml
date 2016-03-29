@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Spring</string>
+    <string name="bulbs">Bulbs</string>
+    <string-array name="bulb_types">
+        <item>Tulips</item>
+        <item>Daffodils</item>
+        <item>Iris</item>
+    </string-array>
+</resources>
