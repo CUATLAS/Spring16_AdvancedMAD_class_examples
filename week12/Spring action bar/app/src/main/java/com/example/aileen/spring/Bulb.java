@@ -21,6 +21,22 @@ public class Bulb {
             new Bulb("Cape Cod", R.drawable.capecod)
     };
 
+    public static final Bulb[] daffodils = {
+            new Bulb("Bella Vista", R.drawable.bellavista),
+            new Bulb("Big Gun", R.drawable.biggun),
+            new Bulb("Full House", R.drawable.fullhouse),
+            new Bulb("Ice Follies", R.drawable.icefollies),
+            new Bulb("Yellow Hoop", R.drawable.yellowhoop)
+    };
+
+    public static final Bulb[] iris = {
+            new Bulb("Blazing Sunrise", R.drawable.blazingsunrise),
+            new Bulb("October Sun", R.drawable.octobersun),
+            new Bulb("Purple Night Sky", R.drawable.purplenightsky),
+            new Bulb("Temper Tantrum", R.drawable.tempertantrum),
+            new Bulb("Victoria Falls", R.drawable.victoriafalls)
+    };
+
     public String getName(){
         return name;
     }

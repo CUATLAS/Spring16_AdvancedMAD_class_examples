@@ -1,11 +1,13 @@
 package com.example.aileen.spring;
 
 import android.app.ListActivity;
-import android.os.Bundle;
-import android.widget.ListView;
-import android.widget.ArrayAdapter;
 import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class BulbCategoryActivity extends ListActivity {
 
@@ -15,7 +17,7 @@ public class BulbCategoryActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Intent i = getIntent();
-        String bulbtype = i.getStringExtra("bulbtype");
+        bulbtype = i.getStringExtra("bulbtype");
 
         //get the list view
         ListView listBulbs = getListView();
@@ -27,6 +29,12 @@ public class BulbCategoryActivity extends ListActivity {
         switch (bulbtype){
             case "Tulips":
                 listAdapter = new ArrayAdapter<Bulb>(this, android.R.layout.simple_list_item_1, Bulb.tulips);
+                break;
+            case "Daffodils":
+                listAdapter = new ArrayAdapter<Bulb>(this, android.R.layout.simple_list_item_1, Bulb.daffodils);
+                break;
+            case "Iris":
+                listAdapter = new ArrayAdapter<Bulb>(this, android.R.layout.simple_list_item_1, Bulb.iris);
                 break;
             default: listAdapter = new ArrayAdapter<Bulb>(this, android.R.layout.simple_list_item_1, Bulb.tulips);
         }
@@ -41,5 +49,26 @@ public class BulbCategoryActivity extends ListActivity {
         intent.putExtra("bulbid", (int) id);
         intent.putExtra("bulbtype", bulbtype);
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        //inflate menu to add items to the action bar
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //get the ID of the item on the action bar that was clicked
+        switch (item.getItemId()){
+            case R.id.create_order:
+                //start order activity
+                Intent intent = new Intent(this, OrderActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
